@@ -41,3 +41,27 @@ space-between: Các dòng được trình bày với khoảng cách bằng nhau 
 space-around: Các dòng sẽ được trình bày với khoảng cách bằng nhau xung quanh chúng.<br/>
 stretch: Các dòng sẽ được kéo dài để phù hợp với hộp chứa.<br/>
 
+
+
+
+# NPM
+## Project scope
+	-npm install react react-dom => dependencies
+	-npm i react react-dom => dependencies
+	-npm install —save-dev react react-dom => devDependencies
+	-npm i -D react react-dom => devDependencies
+	- npm uninstall react react-dom
+## Global scope
+	-npm i —global create-react-app
+	-npm i -g create-react-app
+
+
+## NPX: Node => NPM,NPX
+- Tại sao dùng NPX?
+- Gặp lỗi khi: npx create-react-app <app> (tên có dấu)
+
+- YARN & NPM
+- YARN install
+- Lưu ý:
+- Luôn bật development server (npm start II yarn start)
+
