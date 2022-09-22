@@ -19,20 +19,20 @@ row: Các hạng mục được đặt cùng hướng với hướng của từ 
 row-reverse: Các hạng mục được đặt ngược hướng với hướng của từ trong văn bản.<br/>
 column: Các hạng mục được đặt từ trên xuống dưới.<br/>
 column-reverse: Các hạng mục được đặt từ dưới lên trên.<br/>
-"================================"<br/>
+
 Đôi khi đảo chiều của hộp chứa theo hàng ngang hay hàng dọc là không đủ. Trong những trường hợp này, chúng ta có thể áp dụng thuộc tính order cho từng hạng mục riêng lẻ. Theo mặc định, các hạng mục có giá trị là 0, nhưng chúng ta có thể thay đổi thuộc tính đó với một giá trị số nguyên dương hoặc âm khác.
 order: 2;
-"================="<br/>
+
 Một thuộc tính CSS khác mà bạn có thể áp dụng cho các hạng mục riêng biệt là align-self. Thuộc tính CSS này chấp nhận các giá trị tương tự như align-items và giá trị của nó đối với một hạng mục riêng biệt.<br/>
-"=================="<br/>
+
 ## flex-wrap
 nowrap: Mỗi hạng mục được dồn vào một hàng duy nhất.<br/>
 wrap: Các hạng mục quấn xung quanh để tạo thêm dòng.<br/>
 wrap-reverse: Các hạng mục quấn xung quanh để tạo thêm dòng ngược lại.<br/>
-""==================="<br/>
+
 Cả hai thuộc tính flex-direction và flex-wrap thường được sử dụng với nhau vì thế từ viết tắt flex-flow được tạo ra để kết hợp chúng. Từ viết tắt này chấp nhận giá trị của một trong hai thuộc tính ngăn cách bởi một khoảng trắng.
 Ví dụ, có thể sử dụng flex-flow: row wrap để thiết lập hàng ngang và quấn xung quanh chúng.
-"==================="
+
 ## align-content
 flex-start: Các dòng được dồn về phía trên cùng của hộp chứa.<br/>
 flex-end: Các dòng được dồn về phía dưới cùng của hộp chứa.<br/>
