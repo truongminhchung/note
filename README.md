@@ -1,4 +1,5 @@
 # Flexbox
+
 Justify-content : vị trí trên trục dọc
 flex-start: Các hạng mục sẽ được sắp xếp về phía bên trái của hộp chứa.
 flex-end: Các hạng mục sẽ được sắp xếp về phía bên phải của hộp chứa.
