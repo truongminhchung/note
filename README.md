@@ -6,7 +6,7 @@ flex-end: Các hạng mục sẽ được sắp xếp về phía bên phải c�
 center: Các hạng mục sẽ được sắp xếp ở giữa chính của hộp chứa.
 space-between: Các hạng mục sẽ được trình bày với khoảng cách bằng nhau giữa chúng.
 space-around: Các hạng mục sẽ được trình bày với khoảng cách bằng nhau xung quanh chúng.
-===============
+
 align-intems:  vị trí trên trục ngang		
 flex-start: Các hạng mục sẽ được sắp xếp phía trên của hộp chứa.
 flex-end: Các hạng mục sẽ được sắp xếp phía dưới cùng của hộp chứa.
