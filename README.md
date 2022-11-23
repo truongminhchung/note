@@ -65,3 +65,21 @@ stretch: Các dòng sẽ được kéo dài để phù hợp với hộp chứa.
 - Lưu ý:
 - Luôn bật development server (npm start II yarn start)
 
+# =================================
+## var, let, const: 
+
+- var: biến toàn cục(có hổ trợ hoisting)
+    Phạm vi toàn cục nếu khai báo biến nằm ngoài khai báo một hàm. Nghĩa một biến khi khi báo bên ngoài khối khai báo hàm có thể dùng trong toàn bộ window. Biến được khai báo trong hàm thì chỉ có thể truy cập ở trong khối khai báo của hàm.
+- let: phạm vi trong khối mã (Block-scoped)
+    Một khối là một đoạn mã được bao bởi cặp dấu mở ngoặc nhọn và đóng ngoặc nhọn { }. Mọi lệnh trong cặp dấu là một khối mã (Block). Biến khai báo với let trong khối mã chỉ có thể dùng trong khối mã đó
+
+- Const
+    Biến được khai báo với const chứa giá trị hằng (Giá trị không thể thay đổi trong khi thực hiện). Khai báo const chia sẽ tính tương đồng với khai báo let.
+
+
+### Tóm lại, sự khác nhau giữa var, let, const có thể được tóm lược như sau:
+
+- Khai báo var được định phạm vi toàn cục (global) hay hàm (function) trong khi let và const được định phạm vi là khối mã (block)
+- Biến var có thể được cập nhật và khai báo lại trong phạm vi tồn tại; biến let có thể được cập nhật nhưng không thể khai báo lại; biến const không thể cập nhật nhưng không thể khai báo lại.
+- Khai báo của var, let, const đều được dịch chuyển lên đầu của phạm vi. Nhưng trong khi biến var được khởi gán giá trị với undefined, biến let và const không được khởi gán giá trị.
+- Trong khi var và let có thể được khai báo không khởi gán giá trị, const phải khởi gán giá trị khi khai báo.
