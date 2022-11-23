@@ -87,10 +87,10 @@ stretch: Các dòng sẽ được kéo dài để phù hợp với hộp chứa.
 ##
  1. Var / Let, Const: Scope, Hosting
  2. Const / Var, Let: Assignment
- Code block: if else, loop, {}, ...
+ - Code block: if else, loop, {}, ...
 
- Code thuần: Var
- Có sử dung thư viện Babel: Const, Let
--	Khi định nghĩa biến và không gán lại biến đó: Const
--	Khi cần gán lại giá trị cho : Let
+ - Code thuần: Var
+ - Có sử dung thư viện Babel: Const, Let
+    -	Khi định nghĩa biến và không gán lại biến đó: Const
+    -	Khi cần gán lại giá trị cho : Let
 
