@@ -83,3 +83,14 @@ stretch: Các dòng sẽ được kéo dài để phù hợp với hộp chứa.
 - Biến var có thể được cập nhật và khai báo lại trong phạm vi tồn tại; biến let có thể được cập nhật nhưng không thể khai báo lại; biến const không thể cập nhật nhưng không thể khai báo lại.
 - Khai báo của var, let, const đều được dịch chuyển lên đầu của phạm vi. Nhưng trong khi biến var được khởi gán giá trị với undefined, biến let và const không được khởi gán giá trị.
 - Trong khi var và let có thể được khai báo không khởi gán giá trị, const phải khởi gán giá trị khi khai báo.
+
+##
+ 1. Var / Let, Const: Scope, Hosting
+ 2. Const / Var, Let: Assignment
+ Code block: if else, loop, {}, ...
+
+ Code thuần: Var
+ Có sử dung thư viện Babel: Const, Let
+-	Khi định nghĩa biến và không gán lại biến đó: Const
+-	Khi cần gán lại giá trị cho : Let
+
